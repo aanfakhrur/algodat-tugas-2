@@ -11,10 +11,13 @@ public class Main2 {
             {"Tiffany","1997" ,"Perempuan"}  // baris ke-4
         };
         
+        System.out.println("Panjang awal array depan    = "+data.length);
+        System.out.println("Panjang awal array belakang = "+data[0].length);
+        
         Object[][] ganti = ChangeArrayLength.changeLength2D(data, 9, 3);
         
-        System.out.println("Length   : "+ganti.length);
-        System.out.println("Length 2 : "+ganti[0].length);
+        System.out.println("Panjang ubah array depan    = "+ganti.length);
+        System.out.println("Panjang ubah array belakang = "+ganti[0].length);
         System.out.println("");
         
         for(Object[] ganti2 : ganti){
